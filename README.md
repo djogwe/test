@@ -8,7 +8,12 @@ To use news_reporter, first download the newsdata.sql file and open using psql t
 
 # Usage
 
-The program will print the results to the following three questions:
+The program is designed using three functions:
+* top_three_articles()
+* top_authors()
+* error_dates()
+
+Each function links to the psql 'news' database and executes a single query from the associated tables.  Each function is then called in the main() function to report the answers to the following three questions:
 
 * What are the most popular three articles of all time?
 * Who are the most popular article authors of all time?
