@@ -10,6 +10,6 @@ To use news_reporter, first download the newsdata.sql file and open using psql t
 
 The program will print the results to the following three questions:
 
-*What are the most popular three articles of all time?
-*Who are the most popular article authors of all time?
-*On which days did more than 1% of requests lead to errors? 
+* What are the most popular three articles of all time?
+* Who are the most popular article authors of all time?
+* On which days did more than 1% of requests lead to errors? 
